@@ -1,0 +1,6 @@
+﻿  d3d11.cpp
+  exports_.cpp
+  dllmain.cpp
+  正在生成代码...
+    正在创建库 D:\RenderDoc\MagicRenderDoc\D3D11-Wrapper\Debug\x64\d3d11.lib 和对象 D:\RenderDoc\MagicRenderDoc\D3D11-Wrapper\Debug\x64\d3d11.exp
+  d3d11_wrapper.vcxproj -> D:\RenderDoc\MagicRenderDoc\D3D11-Wrapper\Debug\x64\d3d11.dll
