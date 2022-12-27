@@ -6,8 +6,11 @@ RenderDoc在开发中用于Debug，用于查看渲染结果是否符合渲染预
 
 ## WindowsRelated
 适用于 Windows 平台的解决方案。主要思路是 FAKER d3d11.dll 从而加载 renderdoc.dll。
+
 思路来自于[知乎Blog](https://zhuanlan.zhihu.com/p/353043910)
+
 源代码在[SeanPesce/d3d11-wrappe](https://github.com/SeanPesce/d3d11-wrapper)的基础上进行更改，使得模拟器可以在加载 FAKER 之后加载 renderdoc.dll
+
 具体的修改内容和使用方案可以参考[我的博客](https://www.cnblogs.com/vestlee/p/17003036.html)
 
 ## AndroidRelated
