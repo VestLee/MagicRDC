@@ -25,10 +25,15 @@ Magisk，是安卓8以上修改debuggable为1的方案，参考：[Magisk](https
 思路来自[知乎Blog](https://zhuanlan.zhihu.com/p/376316855)
 
 Adrill-main和Adrill-Tools 分别是安卓7及以下注入方案的源码和可执行文件，来自开源库：[Adrill](https://github.com/mustime/Adrill)
+
 dlfcn_compat-master 是绕开Android 7.0 及以上，系统阻止应用动态链接非公开 NDK库。制作fake dlopn、dlsym函数的源码，来自开源库[dlfcn_compat](https://github.com/lizhangqu/dlfcn_compat)
+
 OpenNativeLibrary中是完成的版本：
+
 JNI 包括了安卓8及以下注入方案、Hook OpenNativeLibrary的源码，编译时使用NDK交叉编译即可。
+
 libs 是生成的文件
+
 RDC中时已经配置好的文件，包括白名单renderdoc.cfg
 
 具体的修改内容和使用方案可以参考[我的博客](https://www.cnblogs.com/vestlee/p/17022863.html)
