@@ -17,11 +17,11 @@ RenderDoc在开发中用于Debug，用于查看渲染结果是否符合渲染预
 ## AndroidRelated
 适用于 Android 平台的解决方案。
 
-###方案一：修改debuggable的值为1
+### 方案一：修改debuggable的值为1
 mprop-master，是安卓8及以下修改debuggable为1的方案，来自开源库：[mprop-master](https://github.com/wpvsyou/mprop)
 Magisk，是安卓8以上修改debuggable为1的方案，参考：[Magisk](https://github.com/topjohnwu/Magisk)
 
-###方案二：Fake dlopen 加载 renderdoc.dll
+### 方案二：Fake dlopen 加载 renderdoc.dll
 思路来自[知乎Blog](https://zhuanlan.zhihu.com/p/376316855)
 
 Adrill-main和Adrill-Tools 分别是安卓7及以下注入方案的源码和可执行文件，来自开源库：[Adrill](https://github.com/mustime/Adrill)
