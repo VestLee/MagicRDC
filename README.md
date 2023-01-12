@@ -18,7 +18,9 @@ RenderDoc在开发中用于Debug，用于查看渲染结果是否符合渲染预
 适用于 Android 平台的解决方案。
 
 ### 方案一：修改debuggable的值为1
+
 mprop-master，是安卓8及以下修改debuggable为1的方案，来自开源库：[mprop-master](https://github.com/wpvsyou/mprop)
+
 Magisk，是安卓8以上修改debuggable为1的方案，参考：[Magisk](https://github.com/topjohnwu/Magisk)
 
 ### 方案二：Fake dlopen 加载 renderdoc.dll
